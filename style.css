@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  html{
+    font-size: 62.5%;
+  }
+   /*afecta a los label*/
+  label{
+    display: block;
+    font-size: 3rem;
+  }
+  /*afecta a las imagenes*/
+
+  img{
+    height: auto;
+        width: auto;
+        max-width: 300px;
+        max-height:400px;
+  
+  
+  }
+
+  img.logo2{
+    height: auto;
+      width: 100%;
+      max-width: 100px;
+      max-height:100px;
+
+  }
+  
+ 
+  
+  header{
+    background-color: beige;
+    font-size: 2rem;
+    display: flex;
+    justify-content:space-between
+   
+  }
+  
+  
+  body{
+    background-image: url("./imagenes/descarga.png");
+    background-color: aqua;
+  }
+  /*afecta a las cajas del nav*/
+ nav{
+  left: 0px;
+  position: relative;
+  display: inline-block;
+ }
+ /*afecta al div del formulario */
+ aside div{
+  display: inline-block;
+  height: 25vh;
+  margin: 5vh;
+  background-color: white;
+  box-shadow: 1px 2px 4px 0 rgba(21,99,157,.16);
+
+}
+/*afecta a la caja del formulario */
+
+aside{
+  position: relative;
+  bottom: 1rem;
+  left: 60rem;
+  display: inline-block;
+
+}
+ 
+ .nav .segundo{
+  
+  padding: 5px 0px 0px 0px;
+ }
+  main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+  }
+  
+  section {
+    width: 100%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 850px;
+    background-color: red;
+    margin: 0 auto;
+  }
+  ul{
+    left: 30rem;
+  }
+
+.parent {
+  display: inline-block;
+  border: 2px black dotted;
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+
+}
+.box {
+  display: inline-block;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+#two {
+  background-color: green;
+}
+h1 {
+  color: purple;
+  font-family: serif;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 18px;
+  font-family: monospace;
+}
+.menu-de-opciones {
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0;
+  display: inline-block;
+}
+
+
+.menu-de-opciones li {
+  display: inline-block;
+}
+
+.menu-de-opciones a {
+  color: white;
+  background-color: #13a4a4;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  display: inline-block;
+}
+/*afecta al bloque blog el rojo*/
+.menu-de-opciones .blog {
+  background-color: red;
+}
+
+
+/*afecta a inicio registra*/
+.main-nav {
+  margin: 5px 5px 5px 0px;
+  list-style: none;
+  padding: 5px 5px 5px 25px;
+  background-color: #13a4a4;
+  display: inline-block;
+
+}
+.main-nav__item {
+  display: inline-block;
+}
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.main-nav__item a:hover {
+  color: blue;
+}
+.main-nav__item a:active {
+  color: red;
+}
+
+.main-nav__item a::after {
+  content: " | ";
+}
